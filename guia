@@ -1,0 +1,18 @@
+Guia--> 
+primero creo mi packeute de dependecias --> package.json
+y pongo:
+{
+  "name": "example-restfulapi",
+  "mian": "index.js",
+  "dependencies": {
+    "body-parser": "~1.12.0",
+    "express": "~4.0.0",
+    "mongodb": "^1.4.40",
+    "mongoskin": "~1.4.12"
+  }
+}
+y arreglo el error de mongo asi "si aparece" :
+"
+npm install mongodb@1.4 --save
+npm install mongodb@1.4 --save
+"
